@@ -28,3 +28,22 @@ Les microservices suivants ont été implémentés :
 - **API Gateway** : Point d'entrée centralisé pour les microservices.
 
 ---
+
+## 🛠️ **Architecture du Projet**
+
+Ce projet utilise une architecture microservices avec les interactions suivantes entre les composants :
+
+```plaintext
+graph TD;
+    A[Postman] -->|JSON Requests| B[API Gateway];
+    B --> C[OrderService];
+    B --> D[KitchenService];
+    B --> E[DeliveryService];
+    B --> F[RestaurantService];
+    B --> G[CourtierService];
+    G --> H[MySQL Database];
+    C --> H;
+    D --> H;
+    E --> H;
+    F --> H;
+    B --> I[Service Registry (Eureka)];

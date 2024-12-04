@@ -29,11 +29,6 @@ Les microservices suivants ont été implémentés :
 
 ---
 
-## 🛠️ **Architecture du Projet**
-
-Ce projet utilise une architecture microservices avec les interactions suivantes entre les composants :
-
-```plaintext
 graph TD;
     A[Postman] -->|JSON Requests| B[API Gateway];
     B --> C[OrderService];
@@ -47,3 +42,4 @@ graph TD;
     E --> H;
     F --> H;
     B --> I[Service Registry (Eureka)];
+

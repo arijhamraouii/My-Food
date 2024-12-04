@@ -42,4 +42,4 @@ graph TD;
     D --> H;
     E --> H;
     F --> H;
-    B --> I[Service Registry (Eureka)];
+    B --> I[Service Registry Eureka];

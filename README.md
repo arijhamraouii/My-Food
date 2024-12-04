@@ -28,10 +28,3 @@ Les microservices suivants ont été implémentés :
 - **API Gateway** : Point d'entrée centralisé pour les microservices.
 
 ---
-
-## 🚀 **Lancer le Projet**
-
-### 1️⃣ **Cloner le dépôt**
-```bash
-git clone https://github.com/username/MyFood.git
-cd MyFood

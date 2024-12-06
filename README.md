@@ -21,7 +21,7 @@ Les microservices suivants ont été implémentés :
 - **RestaurantService** : Gestion des restaurants et des menus.  
 - **CourtierService** : Gestion de la localisation des livreurs.  
 - **Service Registry (Eureka)** : Enregistrement et découverte des microservices.  
-- **API Gateway** : Point d'entrée centralisé pour les microservices.  
+- **Gateway** : Point d'entrée centralisé pour les microservices.  
 
 ---
 
